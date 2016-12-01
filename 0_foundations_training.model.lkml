@@ -6,6 +6,12 @@ include: "*.view"
 # include all the dashboards
 include: "*.dashboard"
 
+
+
+explore: products {}
+
+explore: users {}
+
 explore: inventory_items {
   join: products {
     type: left_outer
@@ -55,7 +61,3 @@ explore: product_facts {
     relationship: many_to_one
   }
 }
-
-explore: products {}
-
-explore: users {}
