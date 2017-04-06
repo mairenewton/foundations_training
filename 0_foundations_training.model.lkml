@@ -10,6 +10,7 @@ include: "*.dashboard"
 
 explore: products {}
 
+
 explore: users {}
 
 explore: inventory_items {
